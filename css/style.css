@@ -25,6 +25,7 @@ body {
   display: none;
 }
 
+
 .batalshikov {
   display: flex;
   flex-direction: column;
@@ -35,4 +36,12 @@ body {
 .batalshikov>img {
   height: 200px;
   width: 200px;
+}
+
+.pictures{
+  margin: 10px 50px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
