@@ -22,3 +22,25 @@ body {
 #marioStop, #marioJump, #marioGoRight {
   display: none;
 }
+
+.kryvonohykh{
+  background: #a9a9a9;
+   text-align: center;
+   padding: 30px
+}
+
+.kryvonohykh__img{
+  width: 400px;
+  margin-bottom: 30px
+}
+
+.kryvonohykh__text{
+  text-align: center;
+  width: 400px;
+  margin-bottom: 30px
+}
+
+.kryvonohykh__link{
+  background: white;
+  padding: 10px
+}
