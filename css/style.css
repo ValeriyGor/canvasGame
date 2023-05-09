@@ -22,3 +22,9 @@ body {
 #marioStop, #marioJump, #marioGoRight {
   display: none;
 }
+
+.Vashurin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
