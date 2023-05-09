@@ -82,3 +82,12 @@ img{
   background: white;
   padding: 10px
 }
+.image {
+  display: flex;
+}
+.image img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  margin: 15px;
+}
