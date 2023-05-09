@@ -22,3 +22,11 @@ body {
 #marioStop, #marioJump, #marioGoRight {
   display: none;
 }
+
+.pictures{
+  margin: 10px 50px;
+  padding: 50 px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
