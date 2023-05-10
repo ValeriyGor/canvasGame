@@ -22,3 +22,23 @@ body {
 #marioStop, #marioJump, #marioGoRight {
   display: none;
 }
+.contact {
+  padding: 20px 30px;
+}
+.contact-title {
+  margin-bottom: 15px;
+}
+.contact-label + .contact-input {
+  margin-right: 10px;
+  height: 25px;
+}
+.contact-btn {
+  width: 150px;
+  height: 25px;
+}
+.contact-btn:hover {
+  background-color: #08c;
+  border: 1px solid #08c;
+  border-radius: 3px;
+  transition: 0.1s;
+}
