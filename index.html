@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Lesson 3</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<h1>Canvas Game MARIO</h1>
 	<div class="canvas-container">
 		<canvas id="gameArea" class="canvas" width="800" height="600"></canvas>
 	</div>
 
-
 	<img src="mario-stop.png" alt="" id="marioStop" />
 	<img src="mario-jump.png" alt="" id="marioJump" />
 	<img src="mario.png" alt="" id="marioGoRight" />
+	
+
+
+	<section class="batalshikov">
+		<!--
+			Додати на головну сторінку блок з заголовком “Прості фігури CSS” і фігурами квадрат,
+			коло та трикутник описаними через CSS
+		-->
+		<div class="batalshikov__container">
+			<hr>
+			<div class="batalshikov__header">
+				<h2>Прості фігури <span data-accent-color>CSS</span></h2>
+				<p><em>Квадрат, Коло та Трикутник [Task=1237]</em></p>
+			</div>
+			<div class="batalshikov__body">
+				<div class="batalshikov__item batalshikov-square"></div>
+				<div class="batalshikov__item batalshikov-circle"></div>
+				<div class="batalshikov__item batalshikov-triangle"></div>
+			</div>
+			<hr>
+		</div>
+	</section>
 	<footer>
 		<div class="contact">
 			<h3 class="contact-title">Зв'яжіться з нами</h3>
@@ -28,6 +51,8 @@
 			</div>
 		</div>
 	</footer>
+
 	<script src="js/script.js"></script>
 </body>
+
 </html>
