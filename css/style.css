@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,6 +19,80 @@ body {
   background: #08c;
 }
 
-#marioStop, #marioJump, #marioGoRight {
+#marioStop,
+#marioJump,
+#marioGoRight {
   display: none;
 }
+
+/* Batalshikov task styles START*/
+.batalshikov {
+  background-color: whitesmoke;
+}
+
+.batalshikov__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.batalshikov__container hr {
+  margin: 1% 0;
+}
+
+.batalshikov__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .4em;
+  color: #000;
+}
+
+.batalshikov__header h2,
+.batalshikov__header p {
+  color: #333;
+}
+
+.batalshikov__header h2>span {
+  display: inline-block;
+  padding: .1em .4em;
+  color: whitesmoke;
+  background-color: #333;
+  border-radius: .2em;
+  transition: color .5s ease-in-out;
+}
+
+.batalshikov__header h2>span:hover {
+  color: tomato;
+}
+
+.batalshikov__header p {
+  opacity: .6;
+}
+
+.batalshikov__body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.batalshikov__item {
+  background-color: tomato;
+  margin: 1rem 0;
+  padding: 8%;
+}
+
+.batalshikov-square {}
+
+.batalshikov-circle {
+  border-radius: 50%;
+}
+
+.batalshikov-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/* Batalshikov task styles END*/
