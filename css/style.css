@@ -157,3 +157,45 @@ body {
   border-bottom: 5px solid white;
 }
 
+
+/* about Cartoons start */
+
+.bestCartoons {
+  margin: 10px 50px;
+  background-color: bisque;
+  border: 2px solid rgb(240, 192, 133);
+}
+
+.bestCartoons__title {
+  text-align: center;
+  color: #08c;
+  padding: 10px;
+}
+
+.bestCartoons__items {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 10px;
+}
+
+.bestCartoons__item {
+  width: 30%;
+  margin: 10px;
+}
+
+.bestCartoons__item >img {
+  width: 100%;
+}
+
+.bestCartoons__item >h3 {
+  text-align: center;
+  color: darkblue;
+  margin: 10px;
+}
+
+.bestCartoons__item >p {
+  height: 100px;
+  overflow: scroll;
+}
+/* about Cartoons end */
+
