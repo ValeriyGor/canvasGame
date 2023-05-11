@@ -148,3 +148,21 @@ function keyUp(e) {
 
 document.addEventListener('keydown', keyDown);
 document.addEventListener('keyup', keyUp);
+
+
+// slider task 8777
+
+const sliderWrapper = document.querySelector('#slider');
+let slideIndex = 0;
+
+function showSlide(n) {
+  slideIndex = (n + 6) % 6;
+  sliderWrapper.style.transform = `translateX(-${slideIndex * 100}%)`;
+}
+
+showSlide(slideIndex);
+
+setInterval(() => {
+  showSlide(slideIndex + 1);
+}, 3000);
+
