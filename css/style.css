@@ -51,3 +51,42 @@ body {
   width: 100%;
   height: auto;
 }
+
+.order-block {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.order-block h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.order-block form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-block label {
+  margin-bottom: 5px;
+}
+
+.order-block input, .order-block button {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.order-block button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.order-block button:hover {
+  background-color: #45a049;
+}
+
