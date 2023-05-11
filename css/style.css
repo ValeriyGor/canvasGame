@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,12 +19,18 @@ body {
   background: #08c;
 }
 
-#marioStop, #marioJump, #marioGoRight {
+#marioStop,
+#marioJump,
+#marioGoRight {
   display: none;
 }
 
 .blue-bg {
   background-color: #08c;
+}
+
+.red-bg {
+  background-color: tomato;
 }
 
 .black-bg {
@@ -37,6 +43,10 @@ body {
   background-color: red;
   padding: 0 15px;
   margin-bottom: 15px;
+}
+
+.batalshikov {
+  padding: 2rem;
 }
 
 /*.slider {*/
