@@ -25,13 +25,23 @@ body {
 
 .blue-bg {
   background-color: #08c;
-}
 
+}
+.blue-bgd {
+   background-color: #08c;
+   padding: 0 14px;
+}
 .black-bg {
   background-color: #000;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 15px;
+}
+.pink-bg{
+  background-color: pink;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
 }
 
 /*.slider {*/
