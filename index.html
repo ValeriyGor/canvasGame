@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Lesson 3</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+	<header class="header">
+		<nav class="header__nav">
+			<li class="header__navLi header__navLi--active"><a href="#" target="_blank">Home</a></li>
+			<li class="header__navLi"><a href="https://about.google/" target="_blank">About</a></li>
+			<li class="header__navLi"><a href="https://about.google/products/" target="_blank">Products</a></li>
+			<li class="header__navLi"><a href="https://about.google/stories/" target="_blank">Stories</a></li>
+		</nav>
+	</header>
 	<h1>Canvas Game MARIO</h1>
 	<div class="canvas-container">
 		<canvas id="gameArea" class="canvas" width="800" height="600"></canvas>
 	</div>
+
+<!-- Сачкова Юлія - 7766
+додати на головну сторінку блок з заголовком “Кращі мультфільми року 2023” і декілька блоків з фото та підписом
+додати блокам стилі -->
+<section class="bestCartoons">
+	<h2 class="bestCartoons__title">Best Cartoons 2023</h2>
+	<div class="bestCartoons__items">
+		<div class="bestCartoons__item">
+		  <h3>Detective Conan: Black Iron Submarine</h3>
+			<img src="./cartoons/DetectiveConan.jpeg" alt="DetectiveConan">
+		  <p>Many engineers from around the world gather at the Interpol marine facility "Pacific Buoy" on Hachijo-jima, in the off sea south of central Tokyo Prefecture coast, to witness the launch of a new system that connects all law enforcement camera systems around the world and enables facial recognition worldwide. Conan, along with his friends Kogoro, Ran, Agasa, Haibara, and the Detective Boys, also heads on the island with an invitation from Sonoko to see the whales. He receives a message from Subaru, who says that an Europol agent has been murdered in Germany by Gin. Perturbed, Conan sneaks onto the police ship led by Kuroda, which is bringing them to the island to protect the completion work, and tours the new facility, just in time for the Black Organization to kidnap a female engineer, seeking a piece of important data in her USB drive. A terrifying howl of screws is heard from the ocean, as an unknown person approaches Haibara.</p>
+		</div>
+		<div class="bestCartoons__item">
+			<h3>Mavka: The Forest Song</h3>
+			<img src="./cartoons/Mavka.jpeg" alt="Mavka">
+			<p>Mavka - a soul of the Forest - faces an impossible choice between love and her duty as guardian to the Heart of the Forest, when she falls in love with a human - the talented young musician Lukash. Our story is about the magical power of love. That kind of love that enables human nature to find the magic within and reveals abilities and qualities that empower a person to reach beyond possible and to hold against evil and human vice.</p>
+		</div>
+		<div class="bestCartoons__item">
+			<h3>Deep Sea</h3>
+			<img src="./cartoons/DeepSea1.jpeg" alt="DeepSea">
+			<p>Deep Sea (Chinese: 深海; pinyin: Shēn Hǎi) is a 2023 Chinese 3D animated fantasy film, written and directed by Tian Xiaopeng,[4] who previously directed Monkey King: Hero Is Back.[5] The film was released in China on 22 January 2023 (Chinese New Year).</p>
+		</div>
+	</div>
+</section>
+
 	<section class="slider">
 		<h2 class="slider__title">Наші фото</h2>
 		<div class="slider__container">
@@ -25,10 +60,64 @@
 		</div>
 	</section>
 
-	<img src="mario-stop.png" alt="" id="marioStop" />
-	<img src="mario-jump.png" alt="" id="marioJump" />
-	<img src="mario.png" alt="" id="marioGoRight" />
-	
+	<section class="batalshikov">
+		<!--
+			Додати на головну сторінку блок з заголовком “Прості фігури CSS” і фігурами квадрат,
+			коло та трикутник описаними через CSS
+		-->
+		<div class="batalshikov__container">
+			<hr>
+			<div class="batalshikov__header">
+				<h2>Прості фігури <span data-accent-color>CSS</span></h2>
+				<p><em>Квадрат, Коло та Трикутник [Task=1237]</em></p>
+			</div>
+			<div class="batalshikov__body">
+				<div class="batalshikov__item batalshikov-square"></div>
+				<div class="batalshikov__item batalshikov-circle"></div>
+				<div class="batalshikov__item batalshikov-triangle"></div>
+			</div>
+			<hr>
+		</div>
+	</section>
+
+	<section class="vozniak">
+		<div class="contact">
+			<h3 class="contact-title">Зв'яжіться з нами</h3>
+			<div class="contact-area">
+				<label for="contact-name" class="contact-label">Ваше ім'я</label>
+				<input type="text" name="name" id="contact-name" class="contact-input">
+				<label for="contact-phone" class="contact-label">Ваш номер телефону</label>
+				<input type="text" name="phone" id="contact-phone" class="contact-input">
+				<input type="submit" name="submit" class="contact-btn" value="Відправити">
+			</div>
+		</div>
+	</section>
+
+	<footer class="kryvonohykh">
+		<div class="footer-box">
+			<div class="footer-box__nav-box">
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="https://github.com/ValeriyGor/canvasGame" class="nav__link" target="_blank">GitHub</a>
+						</li>
+						<li class="nav__item">
+							<a href="https://classroom.google.com/c/NjA2MDcyNTU1NTM4" class="nav__link " target="_blank">Class room</a>
+						</li>
+						<li class="nav__item">
+							<a href="https://animate.style/" class="nav__link" target="_blank">Animate</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="copyright">
+				<h4 class="copyright__title">© 2023</h4>
+			</div>
+		</div>
+	</footer> 
+
 	<script src="js/script.js"></script>
+	
 </body>
+
 </html>

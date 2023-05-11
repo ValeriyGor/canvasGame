@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,9 +19,231 @@ body {
   background: #08c;
 }
 
-#marioStop, #marioJump, #marioGoRight {
+#marioStop,
+#marioJump,
+#marioGoRight {
   display: none;
 }
+
+/* Vozniak*/
+.contact {
+  padding: 20px 30px;
+}
+.contact-title {
+  margin-bottom: 15px;
+}
+.contact-label + .contact-input {
+  margin-right: 10px;
+  height: 25px;
+}
+.contact-btn {
+  width: 150px;
+  height: 25px;
+}
+.contact-btn:hover {
+  background-color: #08c;
+  border: 1px solid #08c;
+  border-radius: 3px;
+  transition: 0.1s;
+}
+/**/
+
+/* Batalshikov task styles START*/
+.batalshikov {
+  background-color: whitesmoke;
+}
+
+.batalshikov__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.batalshikov__container hr {
+  margin: 1% 0;
+}
+
+.batalshikov__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .4em;
+  color: #000;
+}
+
+.batalshikov__header h2,
+.batalshikov__header p {
+  color: #333;
+}
+
+.batalshikov__header h2>span {
+  display: inline-block;
+  padding: .1em .4em;
+  color: whitesmoke;
+  background-color: #333;
+  border-radius: .2em;
+  transition: color .5s ease-in-out;
+}
+
+.batalshikov__header h2>span:hover {
+  color: tomato;
+}
+
+.batalshikov__header p {
+  opacity: .6;
+}
+
+.batalshikov__body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.batalshikov__item {
+  background-color: tomato;
+  margin: 1rem 0;
+  padding: 8%;
+}
+
+.batalshikov-square {}
+
+.batalshikov-circle {
+  border-radius: 50%;
+}
+
+.batalshikov-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/* Batalshikov task styles END*/
+
+.header{
+  width: 100vw;
+  height: 55px;
+  background: rgb(233,212,167);
+  background: linear-gradient(141deg, rgba(233,212,167,1) 0%, rgba(238,203,128,1) 18%, rgba(246,204,113,1) 35%, rgba(252,222,156,1) 58%, rgba(255,220,143,1) 78%, rgba(255,209,106,1) 93%);
+  padding: 0px 30px;
+
+}
+.header__nav{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header__navLi{
+  list-style: none;
+  margin-right: 2px;
+  padding: 0px 16px;
+  font-size: 24px;
+  transition: 0.3s;
+  border-bottom: 0px solid white;
+
+}
+.header__navLi:hover{
+  border-bottom: 5px solid white;
+  cursor: pointer;
+}
+.header__navLi a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+    font-family: fantasy;
+}
+.header__navLi--active{
+  border-bottom: 5px solid white;
+}
+
+
+/* about Cartoons start */
+
+.bestCartoons {
+  margin: 10px 50px;
+  background-color: bisque;
+  border: 2px solid rgb(240, 192, 133);
+}
+
+.bestCartoons__title {
+  text-align: center;
+  color: #08c;
+  padding: 10px;
+}
+
+.bestCartoons__items {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 10px;
+}
+
+.bestCartoons__item {
+  width: 30%;
+  margin: 10px;
+}
+
+.bestCartoons__item >img {
+  width: 100%;
+}
+
+.bestCartoons__item >h3 {
+  text-align: center;
+  color: darkblue;
+  margin: 10px;
+}
+
+.bestCartoons__item >p {
+  height: 100px;
+  overflow: scroll;
+}
+/* about Cartoons end */
+
+
+/* Kryvonohykh start*/
+.footer-box{
+  background: rgb(94, 198, 198);
+  width: 100%;
+  padding: 20px;
+}
+
+.nav__list{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  width: 70%;
+  margin: 0 auto;
+  background: rgb(94, 198, 198);
+  padding: 20px 0;
+}
+
+.nav__link, .nav__link:visited {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: rgb(56, 56, 56);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+.nav__link:hover{
+  background: rgb(255, 255, 255);
+  color: rgb(56, 56, 56);
+  transform: scale(1.1);
+}
+
+.nav__link:active{
+  transform: scale(1.1) translateY(4px);
+}
+
+.copyright__title{
+  text-align: center
+}
+
+/* Kryvonohykh end*/
 
 .slider {
   max-width: 1200px;
