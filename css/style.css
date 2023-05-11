@@ -23,7 +23,7 @@ body {
   display: none;
 }
 .header{
-  width: 100vw;
+  width: 100%;
   height: 55px;
   background: rgb(233,212,167);
   background: linear-gradient(141deg, rgba(233,212,167,1) 0%, rgba(238,203,128,1) 18%, rgba(246,204,113,1) 35%, rgba(252,222,156,1) 58%, rgba(255,220,143,1) 78%, rgba(255,209,106,1) 93%);
