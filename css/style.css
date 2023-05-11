@@ -22,3 +22,48 @@ body {
 #marioStop, #marioJump, #marioGoRight {
   display: none;
 }
+
+
+
+
+.footer-box{
+  background: rgb(94, 198, 198);
+  width: 100%;
+  padding: 20px;
+}
+
+.nav__list{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  width: 70%;
+  margin: 0 auto;
+  background: rgb(94, 198, 198);
+  padding: 20px 0;
+}
+
+.nav__link, .nav__link:visited {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: rgb(56, 56, 56);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+.nav__link:hover{
+  background: rgb(255, 255, 255);
+  color: rgb(56, 56, 56);
+  transform: scale(1.1);
+}
+
+.nav__link:active{
+  transform: scale(1.1) translateY(4px);
+}
+
+.copyright__title{
+  text-align: center
+}
