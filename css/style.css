@@ -33,6 +33,11 @@ body {
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
+.bg-red {
+  background-color: red;
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
 
 /*.slider {*/
 /*  max-width: 1200px;*/
